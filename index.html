@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Himanshu K. Verma — Frontend Developer building fast, clean, and thoughtful web experiences.">
+<title>Himanshu K. Verma · Frontend Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Mono:wght@400;500&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<!-- ── NAVBAR ──────────────────────────────────────── -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo"><span>Code With</span> Coffee</a>
+    <div class="nav-links">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+    <div class="nav-right">
+      <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">☾</button>
+      <a href="#contact" class="nav-cta btn">Hire Me</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" class="nav-link">About</a>
+  <a href="#skills" class="nav-link">Skills</a>
+  <a href="#projects" class="nav-link">Projects</a>
+  <a href="#experience" class="nav-link">Experience</a>
+  <a href="#contact" class="nav-link">Contact</a>
+</div>
+
+<!-- ── HERO ────────────────────────────────────────── -->
+<section id="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-grid"></div>
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        Open to internships &amp; freelance work
+      </div>
+      <h1 class="hero-headline">
+        I build interfaces<br>
+        that <em>feel</em> right.
+      </h1>
+      <p class="hero-sub">
+        Frontend developer turning design ideas into fast, accessible, and polished web experiences. Currently pursuing BCA at University of Allahabad.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">
+          <span>View Projects</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-ghost">Contact Me</a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="stat-num">3+</div>
+          <div class="stat-label">Projects Built</div>
+        </div>
+        <div>
+          <div class="stat-num">6+</div>
+          <div class="stat-label">Technologies</div>
+        </div>
+        <div>
+          <div class="stat-num">1yr+</div>
+          <div class="stat-label">Experience</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll-hint">
+    <span class="scroll-line"></span>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ── ABOUT ──────────────────────────────────────── -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-visual reveal">
+        <div class="about-card">
+          <div class="about-avatar">
+            <img src="assets/himanshu.jpg" alt="Himanshu K. Verma">
+          </div>
+          <div class="about-name">Himanshu</div>
+          <div class="about-role">// frontend_developer</div>
+          <div class="about-chips">
+            <span class="chip">Prayagraj, India</span>
+            <span class="chip">BCA @ Allahabad</span>
+            <span class="chip">2025 – 2028</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-text">
+        <div class="section-label reveal">About</div>
+        <h2 class="section-title reveal reveal-delay-1">Code with<br>purpose.</h2>
+        <p class="reveal reveal-delay-2">
+          I'm a BCA student who found a genuine interest in the gap between design and engineering. I don't just write HTML — I think about layout, interaction, and the user's experience at every step.
+        </p>
+        <p class="reveal reveal-delay-2">
+          My goal is to land a frontend internship where I can contribute real value, learn fast, and grow into a developer who ships products people actually use.
+        </p>
+        <div class="about-highlights reveal reveal-delay-3">
+          <div class="highlight-item">
+            <div class="hi-icon">🎓</div>
+            <div>
+              <div class="hi-label">Education</div>
+              <div class="hi-val">Bachelor of Computer Applications, University of Allahabad</div>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="hi-icon">📍</div>
+            <div>
+              <div class="hi-label">Location</div>
+              <div class="hi-val">Prayagraj, Uttar Pradesh, India</div>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="hi-icon">🎯</div>
+            <div>
+              <div class="hi-label">Looking for</div>
+              <div class="hi-val">Frontend Internship · Freelance Projects</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ── SKILLS ─────────────────────────────────────── -->
+<section id="skills">
+  <div class="container">
+    <div class="section-label reveal">Skills</div>
+    <h2 class="section-title reveal reveal-delay-1">What I work with.</h2>
+    <p class="section-sub reveal reveal-delay-2">A focused stack built for shipping modern, responsive frontends.</p>
+    <div class="skills-wrapper">
+
+      <div class="skill-card reveal">
+        <div class="skill-card-header">
+          <div class="skill-icon">⚡</div>
+          <div class="skill-card-title">Frontend</div>
+        </div>
+        <div class="skill-list">
+          <div class="skill-item-row">
+            <div class="skill-meta"><span class="skill-name">HTML5 / CSS3</span><span class="skill-pct">92%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+          </div>
+          <div class="skill-item-row">
+            <div class="skill-meta"><span class="skill-name">JavaScript</span><span class="skill-pct">78%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+          </div>
+          <div class="skill-item-row">
+            <div class="skill-meta"><span class="skill-name">React.js</span><span class="skill-pct">68%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="68"></div></div>
+          </div>
+          <div class="skill-item-row">
+            <div class="skill-meta"><span class="skill-name">Tailwind CSS</span><span class="skill-pct">75%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal reveal-delay-1">
+        <div class="skill-card-header">
+          <div class="skill-icon">💻</div>
+          <div class="skill-card-title">Programming</div>
+        </div>
+        <div class="skill-list">
+          <div class="skill-item-row">
+            <div class="skill-meta"><span class="skill-name">Java</span><span class="skill-pct">70%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+          </div>
+          <div class="skill-item-row">
+            <div class="skill-meta"><span class="skill-name">C</span><span class="skill-pct">80%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          </div>
+          <div class="skill-item-row">
+            <div class="skill-meta"><span class="skill-name">MySQL</span><span class="skill-pct">70%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal reveal-delay-2">
+        <div class="skill-card-header">
+          <div class="skill-icon">🛠</div>
+          <div class="skill-card-title">Tools &amp; Concepts</div>
+        </div>
+        <div class="tools-grid">
+          <span class="tool-badge">GitHub</span>
+          <span class="tool-badge">Postman</span>
+          <span class="tool-badge">Canva</span>
+          <span class="tool-badge">Responsive Design</span>
+          <span class="tool-badge">REST APIs</span>
+          <span class="tool-badge">UI/UX Basics</span>
+          <span class="tool-badge">Google Sheets</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ── PROJECTS ────────────────────────────────────── -->
+<section id="projects">
+  <div class="container">
+    <div class="section-label reveal">Projects</div>
+    <h2 class="section-title reveal reveal-delay-1">Things I've built.</h2>
+    <p class="section-sub reveal reveal-delay-2">Each project is a real problem solved — not just practice exercises.</p>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-cover">
+          <div class="project-cover-img">🌤</div>
+          <span class="project-num">01</span>
+        </div>
+        <div class="project-body">
+          <div class="project-title">Weather Application</div>
+          <div class="project-desc">Integrated a public weather API to fetch real-time conditions based on user input. Designed a clean, responsive UI with dynamic content rendering — temperature, humidity, weather icons, and location-aware display.</div>
+          <div class="project-stack">
+            <span class="stack-tag">JavaScript</span>
+            <span class="stack-tag">REST API</span>
+            <span class="stack-tag">HTML/CSS</span>
+          </div>
+          <div class="project-links">
+           
+            <a href="https://github.com/himanshukailash" class="project-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-1">
+        <div class="project-cover">
+          <div class="project-cover-img"><img src="assets/snake.png" alt=""></div>
+          <span class="project-num">02</span>
+        </div>
+        <div class="project-body">
+          <div class="project-title">Snake Game</div>
+          <div class="project-desc">Built a fully playable browser-based Snake game from scratch using vanilla JavaScript. Implemented collision detection, directional controls, score tracking, and a smooth render loop — zero libraries.</div>
+          <div class="project-stack">
+              <span class="stack-tag">HTML/CSS</span>
+              <span class="stack-tag">JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/coderHimanshu-dev/Snake-game" class="project-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-2">
+        <div class="project-cover">
+          <div class="project-cover-img"><img src="assets/portfolio.png" alt=""></div>
+          <span class="project-num">03</span>
+        </div>
+        <div class="project-body">
+          <div class="project-title">Portfolio Website</div>
+          <div class="project-desc">Designed and deployed a personal portfolio to showcase projects and skills. Built with a component-based structure using React, responsive across all device sizes, and deployed publicly for recruiter access.</div>
+          <div class="project-stack">
+            <span class="stack-tag">HTML/CSS</span>
+            <span class="stack-tag">JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ── EXPERIENCE ──────────────────────────────────── -->
+<section id="experience">
+  <div class="container">
+    <div class="section-label reveal">Experience</div>
+    <h2 class="section-title reveal reveal-delay-1">Where I've contributed.</h2>
+    <p class="section-sub reveal reveal-delay-2">Real-world collaboration beyond the code editor.</p>
+    <div class="exp-card reveal">
+      <div>
+        <div class="exp-org">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg>
+          Quantum Quirks
+        </div>
+        <div class="exp-role">Social Media Volunteer</div>
+        <div class="exp-bullets">
+          <div class="exp-bullet">Designed promotional creatives using Canva to boost event visibility and audience engagement for a student coding club.</div>
+          <div class="exp-bullet">Executed content planning and posting strategy across social platforms, increasing reach for club workshops and events.</div>
+          <div class="exp-bullet">Collaborated cross-functionally with the core team on campaign execution and digital outreach initiatives.</div>
+        </div>
+      </div>
+      <div class="exp-period">
+        <div class="exp-date">Mar 2026 – Present</div>
+        <div class="exp-badge"><span class="exp-badge-dot"></span> Active</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ── CONTACT ─────────────────────────────────────── -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-layout">
+      <!-- Left info -->
+      <div class="contact-info reveal">
+        <div class="section-label">Contact</div>
+        <h2 class="section-title">Let's work<br>together.</h2>
+        <p style="color:var(--text2);line-height:1.75;margin-bottom:32px">Open to internship opportunities, freelance projects, and meaningful collaborations. Drop a message and I'll get back within 24 hours.</p>
+        <div class="contact-details">
+          <a href="mailto:himanshuvarma8881@gmail.com" class="cdetail-row">
+            <div class="cdetail-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <div class="cdetail-label">Email</div>
+              <div class="cdetail-val">himanshuvarma8881@gmail.com</div>
+            </div>
+          </a>
+          <a href="tel:+916391371762" class="cdetail-row">
+            <div class="cdetail-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.16 6.16l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <div>
+              <div class="cdetail-label">Phone</div>
+              <div class="cdetail-val">+91 6391371762</div>
+            </div>
+          </a>
+          <a href="https://linkedin.com/in/himanshukailash" target="_blank" class="cdetail-row">
+            <div class="cdetail-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            </div>
+            <div>
+              <div class="cdetail-label">LinkedIn</div>
+              <div class="cdetail-val">linkedin.com/in/himanshukailash</div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- Right form -->
+      <div class="contact-form-wrap reveal reveal-delay-1">
+        <div id="contactForm" class="cform">
+          <div class="cform-row">
+            <div class="cform-group">
+              <label class="cform-label">Your Name</label>
+              <input type="text" id="cf-name" class="cform-input" placeholder="John Doe">
+            </div>
+            <div class="cform-group">
+              <label class="cform-label">Email Address</label>
+              <input type="email" id="cf-email" class="cform-input" placeholder="john@example.com">
+            </div>
+          </div>
+          <div class="cform-group">
+            <label class="cform-label">Subject</label>
+            <input type="text" id="cf-subject" class="cform-input" placeholder="Internship opportunity / Freelance project">
+          </div>
+          <div class="cform-group">
+            <label class="cform-label">Message</label>
+            <textarea id="cf-message" class="cform-input cform-textarea" placeholder="Tell me about the opportunity or project..."></textarea>
+          </div>
+          <div id="cf-error" class="cf-error" style="display:none"></div>
+          <button type="button" onclick="submitContactForm()" class="btn btn-primary cform-submit" id="cf-submit">
+            <span id="cf-btn-text">Send Message</span>
+            <svg id="cf-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+        </div>
+        <!-- Success state -->
+        <div id="formSuccess" class="form-success" style="display:none">
+          <div class="success-icon">✅</div>
+          <h3>Message Sent!</h3>
+          <p>Thanks for reaching out. I'll get back to you within 24 hours.</p>
+          <button onclick="resetForm()" class="btn btn-ghost" style="margin-top:16px">Send Another</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ──────────────────────────────────────── -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-copy">© 2026 Himanshu K. Verma · Built with HTML, CSS &amp; JS</div>
+      <div class="footer-links">
+        <a href="#about" class="footer-link">About</a>
+        <a href="#projects" class="footer-link">Projects</a>
+        <a href="#contact" class="footer-link">Contact</a>
+        <a href="https://linkedin.com/in/himanshukailash" class="footer-link" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
